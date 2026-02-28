@@ -11,6 +11,17 @@ A production-grade full-stack system that detects API latency regressions and pe
 
 ## Architecture & Tech Stack
 
+
+
+
+<img width="2528" height="1696" alt="Gemini_Generated_Image_62b6x862b6x862b6" src="https://github.com/user-attachments/assets/be4cee61-d7ee-45a6-aae7-26deac17aacf" />
+
+
+
+
+
+
+
 ### Frontend (Next.js + TailwindCSS)
 - `App Router` with server/client components
 - `Recharts` for interactive time-series plots
