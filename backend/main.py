@@ -39,6 +39,10 @@ app.add_middleware(
 
 app.include_router(api_router, prefix="/api/v1")
 
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the AI API Performance Regression Detector API! Go to /docs for the swagger documentation."}
+
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
